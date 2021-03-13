@@ -17,7 +17,7 @@ jobs:
       DB_HOST: ${{ secrets.DB_HOST }}
       DB_USER: ${{ secrets.DB_USER }}
       DB_PASSWD: ${{ secrets.DB_PASSWD }}
-      DB_DB: ${{ secrets.DB_DATABASE }}
+      DB_DATABASE: ${{ secrets.DB_DATABASE }}
       ZT_NETWORKID: ${{ secrets.ZT_NETWORKID }}
       ZT_APIKEY: ${{ secrets.ZT_APIKEY }}
 
