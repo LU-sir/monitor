@@ -1,0 +1,1 @@
+create table machine( id CHAR(10) NOT NULL PRIMARY KEY , name CHAR(50) NOT NULL, description VARCHAR(100), ip CHAR(39) );
