@@ -9,6 +9,14 @@ on:
 
 jobs:
   build:
+  
+    env:
+      DB_HOST: ${{ secrets.DB_HOST }}
+      DB_USER: ${{ DB_USER }}
+      DB_PASSWD: ${{ DB_PASSWD }}
+      DB_USER: ${{ DB_USER }}
+      ZT_NETWORKID: ${{ ZT_NETWORKID }}
+      ZT_APIKEY: ${{ ZT_APIKEY }}
 
     runs-on: ubuntu-latest
 
